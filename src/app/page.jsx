@@ -4,9 +4,13 @@ import Usos from "../components/Usos"
 
 export default function Home() {
   return (
-    <main>
-      <section>
+    
+    <main className="relative z-0 grid grid-flow-row-2 md:grid-cols-1 h-screen w-screen">
+    <section >
+    <div className="flex h-full justify-center items-center">
         <div>
+            
+ 
           <h1 className='  text-center text-blue-600 text-2xl font-bold text-xl'>BLOG INFORMATIVO</h1>
           <h2 className ='text-yellow-300 2x1 font-bold text-xl'>BLOG POST</h2>
           
@@ -41,9 +45,9 @@ pueda informarse mientras se carga</p>
              
           <Bienvenida/>
         </div>
+        </div>
+        
       </section>
     </main>
   )
 }
-
-
